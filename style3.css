@@ -1,0 +1,147 @@
+*{
+    margin: 0px;
+}
+
+body{
+    font-family:'Red Hat Display', sans-serif;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+}
+
+h1{
+    font-family: 'Noto Serif Display', serif;
+    font-weight: 300;
+    font-size: 250px;
+    color: rgb(255, 255, 255);
+}
+
+h2{
+    font-family: 'Noto Serif Display', serif;
+    font-size: 250px;
+    font-weight: 300;
+    color: rgb(84, 96, 49);
+}
+
+h3{
+    font-family: 'Noto Serif Display', serif;
+    font-size: 150px;
+    font-weight: 300;
+    color: rgb(84, 96, 49);
+}
+
+h4{
+    font-family: 'Noto Serif Display', serif;
+    font-size: 100px;
+    font-weight: 300;
+    color: rgb(84, 96, 49);
+}
+
+h5{
+    font-family: 'Noto Serif Display', serif;
+    font-size: 70px;
+    font-weight: 300;
+    color: rgb(84, 96, 49);
+}
+
+h6{
+    font-family: 'Noto Serif Display', serif;
+    font-size: 50px;
+    font-weight: 300;
+    color: rgb(84, 96, 49);
+}
+
+.nav-container{
+    display: flex;
+    column-gap: 0;
+    height: 80px;
+    background-color: rgb(84, 96, 49);
+    margin-right: 23.9%;
+}
+
+.nav-about{
+    flex: 2;
+    margin-top: 43px;
+}
+
+.nav-how{
+    flex: 2;
+    margin-top: 43px;
+}
+
+.nav-why{
+    flex: 2;
+    margin-top: 43px;
+}
+
+.nav-why-not{
+    flex: 2;
+    margin-top: 43px;
+}
+
+.container-landing{
+    display: flex;
+	column-gap: 0;
+    background-color: rgb(84, 96, 49);
+    height: 550px;
+}
+
+.container-right{ 
+    overflow: scroll;
+    height: 550px;
+    background-size: 400px;
+    width: 382px;
+    background-color: rgb(255, 255, 255);
+}
+
+.left-landing{
+    flex: 1;
+    border-color: rgb(84, 96, 49);
+    margin-left: 30%;
+    margin-top: 13.3%;
+}
+
+.right-landing{
+    flex: .5;
+    margin-top: 12%;
+    margin-right: 10%;
+}
+
+.nav-site-logo{
+    flex: 1;
+    margin-top: 28px;
+    margin-left: 28px;
+}
+
+.decorative-line{
+    position: absolute;
+    width: 455px;
+    margin-left: 530px;
+    margin-top: 15px;
+}
+
+.small-nav{
+    display: flex;
+    column-gap: 10em;
+    background-color: rgb(84, 96, 49);
+    height: 60px;
+    margin-right: 309.5px;
+}
+
+.smaller-nav{
+    display: flex;
+    column-gap: 10em;
+    margin-left: 50px;
+}
+
+.examples{
+    flex: 1;
+    text-decoration: underline;
+}
+
+.type-is-image{
+    flex: 1;
+}
+
+.juxt{
+    flex:1 ;
+}
