@@ -1,0 +1,32 @@
+
+*{
+	margin: 0;
+}
+
+body{
+	font-size: 20px;
+	font-family: gimlet-text, serif;
+	font-weight: 500;
+	font-style: normal;
+}
+.article{
+	width: 60px;
+	display: flex; 
+	align-items: flex-start;
+
+  }
+  
+content {
+	grid-column-start: 1;
+	grid-column-end: 2;
+  }
+  
+img {
+	width: 500px;
+	display: block;
+}
+
+article {
+	width: 60%;
+	margin: auto;
+}
