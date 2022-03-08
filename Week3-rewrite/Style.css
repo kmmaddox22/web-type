@@ -1,0 +1,265 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .cols{
+    display: flex;
+  }
+  .col-left {
+    border: solid 0px black;
+    height: flex;
+    width: 75%;
+  }
+  
+  .col-right {
+    border: solid 0px black;
+    height: flex;
+    width: 25%;
+  }
+
+  body{
+    font-family:'Red Hat Display', sans-serif;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+}
+li span{
+    text-underline-position: below;
+}
+
+.decorative-line{
+    position:fixed
+    margin-top: 0%;
+}
+
+h1{
+    font-family: 'Noto Serif Display', serif;
+    font-weight: 300;
+    font-size: 250px;
+    color: rgb(255, 255, 255);
+}
+
+h2{
+    font-family: 'Noto Serif Display', serif;
+    font-size: 250px;
+    font-weight: 300;
+    color: rgb(84, 96, 49);
+}
+
+h3{
+    font-family: 'Noto Serif Display', serif;
+    font-size: 150px;
+    font-weight: 300;
+    line-height: 115px;
+    color: rgb(84, 96, 49);
+}
+
+h4{
+    font-family: 'Noto Serif Display', serif;
+    font-size: 100px;
+    font-weight: 300;
+    color: rgb(84, 96, 49);
+}
+
+h5{
+    font-family: 'Noto Serif Display', serif;
+    font-size: 70px;
+    font-weight: 300;
+    color: rgb(84, 96, 49);
+}
+
+h6{
+    font-family: 'Noto Serif Display', serif;
+    font-size: 50px;
+    font-weight: 300;
+    color: rgb(84, 96, 49);
+}
+
+
+.nav-container{
+    display: flex;
+    height: 90px;
+    background-color: rgb(84, 96, 49);
+}
+
+.nav-about{
+    flex: .25;
+    margin-top: 35px;
+}
+
+.nav-how{
+    flex: .25;
+    margin-top: 35px;
+}
+
+.nav-why{
+    flex: .25;
+    margin-top: 35px;
+}
+
+.nav-why-not{
+    flex: .25;
+    margin-top: 35px;
+}
+
+.nav-site-logo{
+    flex: .25;
+    margin-top: 2%;
+    margin-left: 3%;
+}
+
+
+
+.left-landing{
+    background-color: rgb(84, 96, 49);
+    padding-left: 39%;
+    padding-top: 20%;
+    padding-bottom: 5%;
+}
+
+.container-right{ 
+    overflow: scroll;
+    height: 550px;
+    background-size: 400px;
+    width: 320px;
+    background-color: rgb(255, 255, 255);
+}
+
+.small-nav{
+    background-color: rgb(84, 96, 49);
+    height: 60px;
+}
+
+.smaller-nav{
+    display: flex;
+    column-gap: 10%;
+    margin-left: 50px;
+}
+
+.examples{
+    flex: 1;
+    text-underline-position: below white;
+}
+
+.type-is-image{
+    flex: 1;
+}
+
+.juxt{
+    flex:1 ;
+}
+
+.example-images{
+    flex: 1;
+    overflow: scroll;
+    height: 580px;
+    width: flex;
+    background-color: rgb(84, 96, 49);
+}
+
+.canals{
+    flex: 0;
+    width: 900px;
+    margin-top: 100px;
+    margin-left: 30px;
+}
+
+.engineer{
+    flex: 0;
+    width: 700px;
+    margin-top: 80px;
+    margin-left: 30px;
+}
+
+.gold{
+    flex: 0;
+    width: 700px;
+    margin-top: 80px;
+    margin-left: 30px;
+}
+
+.debut{
+    flex: 0;
+    width: 700px;
+    margin-top: 80px;
+    margin-left: 30px;
+}
+
+.fruit{
+    flex: 0;
+    width: 700px;
+    margin-top: 80px;
+    margin-left: 30px;
+}
+
+.artdirector{
+    flex: 0;
+    width: 700px;
+    margin-top: 80px;
+    margin-left: 30px;
+}
+
+.januart{
+    flex: 0;
+    width: 700px;
+    margin-top: 80px;
+    margin-left: 30px;
+}
+
+.Example-title{
+    height: 470px;
+    margin-top: 33%;
+}
+.the-history-of{
+    height: flex;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.THE{
+    color: rgb(84, 96, 49);
+    margin-top: 15%;
+}
+
+.history-of{
+    margin-top: 10px;
+    margin-left: 0;
+    color: rgb(84, 96, 49);
+}
+
+.of{
+    margin-top: 0;
+    margin-left: 630px;
+    color: rgb(84, 96, 49);
+}
+
+.scale1{
+    margin-left: 0%;
+    color: rgb(84, 96, 49);
+}
+
+.history-copy{
+    flex: 1;
+    overflow: scroll;
+    background-color: rgb(84, 96, 49);
+    width: flex;
+    height: 582px;
+    padding-left: 8%;
+    padding-right: 10%;
+    padding-top: 20px;
+    box-sizing: border-box;
+    /* width: 200px;
+    height: 40px; */
+}
+
+
+.footer{
+    background-color: rgb(84, 96, 49);
+    height: 400px;
+}
+
+.nav-site-logo-2{
+    padding-top: 3%;
+    padding-left: 3%;
+}
